@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment / secrets
+.env
+.env.*
+
+# Data — reproducible from scripts; do not commit
+data/comtrade_cache/
+data/winnow.db
+data/raw/
+
+# Editor and OS artefacts
+.DS_Store
+Thumbs.db
+outputs/.~lock.*
+*.numbers
